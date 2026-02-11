@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixels Electronics Store</title>
+
+    <link rel="icon" type="image/png"
+        href="https://images.scalebranding.com/letter-p-shopping-cart-logo-2172ffe3-69c6-40d4-83d3-d65b2ad38e5b.png">
+
+    <link rel="stylesheet" href="main.css">
+    <script src="formValidation.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <h1 class="logo">Pixels</h1>
+        <ul class="nav-links">
+            <li>Home</li>
+            <li>Products</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h2>Your One-Stop Electronics Store</h2>
+        <p>Discover the latest smartphones at unbeatable prices</p>
+    </header>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Featured Smartphone Brands</h2>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="https://1000logos.net/wp-content/uploads/2017/06/Font-Samsung-Logo.jpg" alt="Samsung">
+                <h3>Samsung Galaxy Series</h3>
+                <p>Starting ₹18,999</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.png" alt="Apple">
+                <h3>iPhone Series</h3>
+                <p>Starting ₹50,999</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://1000logos.net/wp-content/uploads/2017/04/Motorola-Logo.png" alt="Motorola">
+                <h3>Motorola Edge Series</h3>
+                <p>Starting ₹12,999</p>
+                <button>Buy Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Feedback Form -->
+     <section id="fdbForm">
+        <h2 id="fdbFormTitle">Please fill the feedback form below for additional 10% discount on all Electronics:</h2><br>
+        <form id="feedbackForm">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="fullName" maxlength="30" placeholder=" John Doe" required>
+            <small class="error"></small>
+            <br><br>
+
+            <label for="phoneNo">Phone Number:</label><br>
+            <input type="tel" id="phoneNo" name="phone" placeholder=" +91-9876543210" required>
+            <small class="error"></small>
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="emailID" placeholder=" johndoe@gmail.com" required>
+            <small class="error"></small>
+            <br><br>
+
+            <label for="fdb">Feedback:</label><br>
+            <textarea id="fdb" name="feedback" maxlength="300" rows="7" cols="28" required></textarea>
+            <small class="error"></small>
+            <br><br>
+
+            <input type="submit" value="Submit Feedback" name="submitBtn" id="submitBt"><br>
+        </form>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Pixels</h2>
+        <p>
+            Pixels Electronics Store is a trusted destination for premium smartphones
+            and accessories. We focus on quality products, competitive pricing,
+            and excellent customer service.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Address: Shop No. 12, 2nd Floor, Phoenix Marketcity, Viman Nagar, Pune - 411014</p>
+        <p>Contact: +91 876 785 4569</p>
+        <br>
+        <p>© Pixels Electronics Store</p>
+    </footer>
+
+</body>
+</html>

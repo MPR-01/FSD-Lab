@@ -1,0 +1,4 @@
+The php files have to be kept in a named folder (in our case, it is "student_crud"), and this folder has to be present inside "htdocs" folder inside the main "xampp" folder.
+
+Basically, the directory is like
+.../xampp/htdocs/student_crud/<xyz>.php

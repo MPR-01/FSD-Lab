@@ -1,0 +1,13 @@
+.container { max-width: 400px; margin: 50px auto; font-family: sans-serif; }
+.form-group { margin-bottom: 15px; display: flex; flex-direction: column; }
+input { padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; }
+
+/* Requirement: Highlight empty/error blocks */
+.error-border { border: 2px solid #ff4d4d; background-color: #fff2f2; }
+.error-text { color: #ff4d4d; font-size: 12px; margin-top: 5px; }
+
+/* Requirement: Success message */
+.success-msg { background: #d4edda; color: #155724; padding: 10px; border-radius: 4px; margin-bottom: 20px; }
+
+button { padding: 10px; background: #007bff; color: white; border: none; cursor: pointer; font-weight: bold; }
+button:hover { background: #0056b3; }
